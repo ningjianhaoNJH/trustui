@@ -18,7 +18,7 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@njh-trustui/components": "workspace:^1.0.0",
+    "@trustui/components": "workspace:^1.0.0",
     "trustui": "workspace:^1.0.0"
   }
 }

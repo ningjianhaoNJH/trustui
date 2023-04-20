@@ -13,7 +13,7 @@ export default defineConfig({
     //minify: false,
     rollupOptions: {
       //忽略打包vue文件
-      external: ['vue', /\.scss/, '@njh-trustui/utils'],
+      external: ['vue', /\.scss/, '@trustui/utils'],
       input: ['index.ts'],
       output: [
         {

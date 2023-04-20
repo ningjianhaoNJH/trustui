@@ -13,7 +13,8 @@
     "docs:deploy": "pnpm run --filter site docs:deploy",
     "trustui:dev": "pnpm run --filter ./play dev",
     "lint:script": "eslint --ext .js,.jsx,.vue,.ts,.tsx --fix --quiet ./",
-    "lint:style": "stylelint --fix \"packages/components/src/**/*.{css,scss}\""
+    "lint:style": "stylelint --fix \"packages/components/src/**/*.{css,scss}\"",
+    "access": "pnpm publish --access public"
   },
   "keywords": [],
   "author": "",

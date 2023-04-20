@@ -1,0 +1,4 @@
+**.d.ts
+/packages/trustui
+dist
+node_modules

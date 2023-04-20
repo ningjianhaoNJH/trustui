@@ -24,7 +24,7 @@ const delPath = async (path: string) => {
       }
     });
 
-    if (path != `${pkgPath}/trustui`) fs.rmdirSync(path);
+    if (path != `${pkgPath}/njh-trustui`) fs.rmdirSync(path);
   }
 };
 export default delPath;

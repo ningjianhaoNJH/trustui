@@ -25,7 +25,7 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: '../trustui/es'
+          dir: '../njh-trustui/es'
         },
         {
           //打包格式
@@ -36,20 +36,20 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: '../trustui/lib'
+          dir: '../njh-trustui/lib'
         }
       ]
     },
     lib: {
       entry: './index.ts',
-      name: 'trustui'
+      name: 'njh-trustui'
     }
   },
   plugins: [
     vue(),
     dts({
       entryRoot: 'src',
-      outputDir: ['../trustui/es/src', '../trustui/lib/src'],
+      outputDir: ['../njh-trustui/es/src', '../njh-trustui/lib/src'],
       //指定使用的tsconfig.json为我们整个项目根目录下,如果不配置,你也可以在components下新建tsconfig.json
       tsConfigFilePath: '../../tsconfig.json'
     }),

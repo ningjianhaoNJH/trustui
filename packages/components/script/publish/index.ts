@@ -2,7 +2,7 @@
  * @Author: ningjianhaoNJH 375332835@qq.com
  * @Date: 2023-04-20 16:07:03
  * @LastEditors: ningjianhaoNJH 375332835@qq.com
- * @LastEditTime: 2023-04-20 16:42:23
+ * @LastEditTime: 2023-04-20 17:11:25
  * @FilePath: \trustui\packages\components\script\publish\index.ts
  * @Description:
  *
@@ -11,6 +11,7 @@
 import run from '../utils/run';
 import { pkgPath } from '../utils/paths';
 import { series } from 'gulp';
+console.log(pkgPath);
 export const publishComponent = async () => {
   run('release-it', `${pkgPath}/njh-trustui`);
 };

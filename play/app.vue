@@ -5,5 +5,5 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { Button } from '@trustui/components';
+import { Button } from '@njh-trustui/components';
 </script>

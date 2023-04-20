@@ -15,7 +15,7 @@
     "vite": "^4.1.1"
   },
   "dependencies": {
-    "@trustui/components": "workspace:^1.0.0",
+    "@njh-trustui/components": "workspace:^1.0.0",
     "trustui": "workspace:^1.0.0"
   }
 }

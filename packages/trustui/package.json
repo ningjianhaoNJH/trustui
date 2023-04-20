@@ -23,6 +23,6 @@
     "url": "https://github.com/ningjianhaoNJH/trustui.git"
   },
   "dependencies": {
-    "@trustui/utils": "^1.0.2"
+    "@njh-trustui/utils": "^1.0.2"
   }
 }
